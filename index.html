@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Weather Dashboard</title>
+</head>
+
+<body>
+
+<main class="weather-app">
+
+  <!-- LEFT WEATHER PANEL -->
+  <section class="current-weather">
+    <div class="current-weather-background"></div>
+
+    <header class="current-weather-header">
+      <h1 class="day-title">Monday</h1>
+      <p class="date">
+        <time datetime="2022-06-20">20 Jun 2022</time>
+      </p>
+      <p class="location">
+        <span class="location-icon">📍</span>
+        <span>Manhatten, New York</span>
+      </p>
+    </header>
+
+    <figure class="weather-icon">
+      <img src="images/sun.png" alt="Sunny weather icon">
+    </figure>
+
+    <p class="temperature">
+      <strong>70</strong>°F
+    </p>
+
+    <p class="weather-description">Sunny</p>
+
+  </section>
+
+
+  <!-- RIGHT WEATHER INFORMATION PANEL -->
+  <section class="weather-details">
+
+    <!-- Weather Stats -->
+    <section class="stats">
+      <h2 class="visually-hidden">Weather Details</h2>
+
+      <div class="stat-row">
+        <dt class="stat-label">PRECIPITATION</dt>
+        <dd class="stat-value">0%</dd>
+      </div>
+
+      <div class="stat-row">
+        <dt class="stat-label">HUMIDITY</dt>
+        <dd class="stat-value">42%</dd>
+      </div>
+
+      <div class="stat-row">
+        <dt class="stat-label">WIND</dt>
+        <dd class="stat-value">3 km/h</dd>
+      </div>
+    </section>
+
+
+    <!-- Weekly Forecast -->
+    <section class="forecast">
+      <div class="location-selector">
+        <span class="location-icon">📍</span>
+        <span class="location-name">Manhatten, New York</span>
+      </div>
+
+      <div class="forecast-container">
+        <article class="forecast-day">
+          <p class="forecast-temp">65°F</p>
+          <figure class="forecast-icon">
+            <img src="images/sun.png" alt="Sunny">
+          </figure>
+          <h3 class="forecast-day-name">Tue</h3>
+          <div class="forecast-temps">
+            <p class="forecast-temp-main">65°F</p>
+            <p class="forecast-min-temp">40°F</p>
+          </div>
+        </article>
+
+        <article class="forecast-day">
+          <p class="forecast-temp">50°F</p>
+          <figure class="forecast-icon">
+            <img src="images/cloud-sun.png" alt="Cloudy">
+          </figure>
+          <h3 class="forecast-day-name">Wed</h3>
+          <div class="forecast-temps">
+            <p class="forecast-temp-main">50°F</p>
+            <p class="forecast-min-temp">20°F</p>
+          </div>
+        </article>
+
+        <article class="forecast-day">
+          <p class="forecast-temp">55°F</p>
+          <figure class="forecast-icon">
+            <img src="images/rain.png" alt="Rain">
+          </figure>
+          <h3 class="forecast-day-name">Thu</h3>
+          <div class="forecast-temps">
+            <p class="forecast-temp-main">55°F</p>
+            <p class="forecast-min-temp">30°F</p>
+          </div>
+        </article>
+
+        <article class="forecast-day">
+          <p class="forecast-temp">60°F</p>
+          <figure class="forecast-icon">
+            <img src="images/sunwhite.png" alt="Sunny">
+          </figure>
+          <h3 class="forecast-day-name">Fri</h3>
+          <div class="forecast-temps">
+            <p class="forecast-temp-main">60°F</p>
+            <p class="forecast-min-temp">40°F</p>
+          </div>
+        </article>
+
+        <article class="forecast-day">
+          <p class="forecast-temp">30°F</p>
+          <figure class="forecast-icon">
+            <img src="images/cloud_snow.png" alt="Snow">
+          </figure>
+          <h3 class="forecast-day-name">Sat</h3>
+          <div class="forecast-temps">
+            <p class="forecast-temp-main">30°F</p>
+            <p class="forecast-min-temp">10°F</p>
+          </div>
+        </article>
+
+        <article class="forecast-day">
+          <p class="forecast-temp">40°F</p>
+          <figure class="forecast-icon">
+            <img src="images/sunwhite.png" alt="Sunny">
+          </figure>
+          <h3 class="forecast-day-name">Sun</h3>
+          <div class="forecast-temps">
+            <p class="forecast-temp-main">40°F</p>
+            <p class="forecast-min-temp">20°F</p>
+          </div>
+        </article>
+
+        <article class="forecast-day">
+          <p class="forecast-temp">30°F</p>
+          <figure class="forecast-icon">
+            <img src="images/cloud-sun.png" alt="Cloudy">
+          </figure>
+          <h3 class="forecast-day-name">Mon</h3>
+          <div class="forecast-temps">
+            <p class="forecast-temp-main">30°F</p>
+            <p class="forecast-min-temp">15°F</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+
+    <!-- Air Quality -->
+    <section class="air-quality">
+      <header class="air-quality-header">
+        <div class="air-quality-title-wrapper">
+          <h2>Air Quality</h2>
+          <img src="images/wind.png" alt="Wind" class="air-quality-icon">
+        </div>
+      </header>
+
+      <div class="air-quality-content">
+        <div class="air-quality-info">
+          <p class="aqi-score">55</p>
+          <p class="aqi-status">Moderate</p>
+        </div>
+        <img src="images/airquality.png" alt="Air Quality" class="air-quality-image">
+      </div>
+
+      <div class="aqi-gradient"></div>
+    </section>
+
+
+    <!-- Sun Times -->
+    <section class="sun-times">
+
+      <article class="sun-time-card">
+        <h3>Sunrise</h3>
+        <time datetime="06:35">6:35AM</time>
+      </article>
+
+      <article class="sun-time-card">
+        <h3>Sunset</h3>
+        <time datetime="17:42">5:42AM</time>
+      </article>
+
+    </section>
+
+  </section>
+
+</main>
+
+</body>
+</html>

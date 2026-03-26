@@ -1,0 +1,68 @@
+:root {
+    --color-navy-blue-100: #222831;
+    --color-navy-blue-80: #222831, 0.8%;
+    --color-white-100: #FFFFFF;
+    --color-black-100: #000000;
+    --color-light-blue-90: #90D9E0, 0.9%;
+    --color-light-purple-90: #5460E6, 0.9%;
+    --color-teal-90: #4A7C80;
+    --color-dark-90: #363D8B, 0.9%;
+
+    --font-size-12: 12px;
+    --font-size-14: 14px;
+    --font-size-18: 18px;
+    --font-size-20: 20px;
+    --font-size-22: 22px;
+    --font-size-24: 24px;
+    --font-size-26: 26px;
+    --font-size-28: 28px;
+    --font-size-30: 30px;
+    --font-size-36: 36px;
+    --font-size-50: 50px;
+    --font-family-montserrat: 'montserrat' , sans-serif;
+
+    --corner-round-10: 10px;
+    --corner-round-30: 30px;
+    --corner-round-25: 25px;
+
+    /*colors */
+    --purple-dark-100: #1E1E1E ;
+    --white-100: #FFFFFF;
+
+    /* typography */
+    --primary-text-color: var(--white-100);
+
+    /* text sizes */
+    --regular-text: var(--font-size-22);
+
+    /* Heading Size */
+    --heading-font-sm: var(--font-size-18) ;
+    --heading-font-md: var(--font-size-28);
+    --heading-font-lg: var(--font-size-36) ;
+
+    /*heading Fonts */
+    --heading-font-primary: var(--font-family-montserrat);
+
+    /* Border Radius */
+    --corner-round-day-panel: var(--corner-round-10);
+    --corner-round-day-forcast-panel: var(--corner-round-30);
+    --corner-round-day: var(--corner-round-25);
+    --corner-round-button: var(--border-radius-10);
+
+    /* Spacing */
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 12px;
+    --spacing-lg: 16px;
+    --spacing-xl: 20px;
+    --spacing-2xl: 32px;
+
+    /* Container Dimensions */
+    --app-max-width: 1440px;
+    --app-height: 720px;
+
+/* Design */
+--app-background-color: var(--purple-dark-100);
+
+
+}
